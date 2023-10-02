@@ -1,0 +1,65 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+
+/* Root */
+:root {
+  --primary-font: 'Comic Neue', cursive;
+
+  --primary-bg-color: #D2B48C;
+  --primary-button-color: #FF6F00;
+}
+
+/* Reset CSS */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: 'Comic Neue', cursive;
+}
+
+body {
+  background-color: var(--primary-bg-color);
+}
+
+/* All Button Background Color */
+.btn-danger, .btn-danger:hover, .btn-danger:active, .btn-danger:visited {
+  background-color: var(--primary-button-color);
+}
+
+/* Jumbotron */
+
+
+/* About Section */
+
+
+/* Mengapa Kami Section */
+#mengapa-kami {
+  background-color: var(--primary-bg-color) !important;
+}
+
+/* Our Products Section */
+.card-header .card-body {
+  background-color: var(--primary-bg-color) !important;
+}
+
+.card-img-top {
+  background-color: var(--primary-bg-color);
+  width: 348px;
+  height: 300px;
+}
+
+/* FAQ */
+.faq-section {
+  margin-top: 15px;
+  margin-bottom: 75px;
+}
+
+/* Carousel */
+
+
+/* Contact */
+
+
+/* Footer */
+
